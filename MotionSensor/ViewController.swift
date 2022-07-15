@@ -29,6 +29,11 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    
+    func stopSensor() {
+        motionManager.stopDeviceMotionUpdates()
+    }
 
 
 }
